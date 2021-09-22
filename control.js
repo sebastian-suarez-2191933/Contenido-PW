@@ -36,20 +36,5 @@ function accion()
     $('#editar').css("display", "none");
     $('#edicion').css("display", "block");
     $('#oculto').css("display", "block");
-    $(document).ready(function(){
-        $('#lista').Tabledit({
-        columns: {
-        identifier: [0, 'id_row'],
-        editable: [[id_row, 'gusto'], [id_row, 'porcentaje']]
-        },
-        hideIdentifier: true,
-        });
-        });
-}
 
-function cancelar()
-{
-    $('#editar').css("display", "block");
-    $('#edicion').css("display", "none");
-    $('#oculto').css("display", "none");
 }
